@@ -116,8 +116,7 @@ sudoedit /etc/netplan/50-cloud-init.yaml
 ```
 ![alt text](https://github.com/PolaKuroda/CloneRaspberryPi/blob/master/img/netplan.png?raw=true)
 
-for save, `^O` then `Enter`  
-for exit, `^X` 
+for save and exit, `^X` confirm with `Y` then `Enter`  
 
 Deploy setting
 
