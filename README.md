@@ -129,3 +129,9 @@ Deploy setting
 ```
 sudo netplan apply
 ```
+
+### 9. Add Pi Box control
+9.1 Install Argno One program
+```
+curl https://download.argon40.com/rgon1.sh | bash
+```
