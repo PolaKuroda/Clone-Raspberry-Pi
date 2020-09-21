@@ -52,7 +52,9 @@ Change password at first login are required for ubuntu
 ### 4. Add user account and change Pi default password
 
 4.1 Change default password  
-`passwd`  
+```
+passwd
+```  
 4.2 Add new user  
 ```
 sudo adduser <username>
@@ -81,9 +83,13 @@ sudo apt-get install -y nodejs
 ```
 node -v
 ```  
-5.5 Install PM2  
+5.5 Install NPM
 ```
-npm install pm2@latest -g
+sudo apt install npm
+```
+5.6 Install PM2  
+```
+sudo npm install pm2@latest -g
 ```  
 
 ### 6. Generate Key for Github
