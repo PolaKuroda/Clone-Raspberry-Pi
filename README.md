@@ -14,9 +14,9 @@ Quick manual of combined resource for clone RapsberryPi from scratch
 ### 1. Clone RaspberryPi image
 
 1.1 Downlaod and install Raspberry Pi Imager (https://www.raspberrypi.org/downloads/)  
-1.2 Insert SD card to laptop and clone `Raspbian` OR `Ubuntu LTS 64-bit`
-1.3 Extract and re-insert the SD card
-1.4 Enable SSH setting
+1.2 Insert SD card to laptop and clone `Raspbian` OR `Ubuntu LTS 64-bit`  
+1.3 Extract and re-insert the SD card  
+1.4 Enable SSH setting  
 ```
 cd /Volumes/<SD>
 ```
@@ -131,5 +131,10 @@ sudo netplan apply
 ```
 
 ### 9. Add Pi Box control
-9.1 Install Argno One program  
+9.1 Install Argno One program on Ubuntu
 https://github.com/meuter/argon-one-case-ubuntu-20.04
+
+9.2 Install Argno One program on Raspbian
+```
+curl https://download.argon40.com/argon1.sh | bash
+```
