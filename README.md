@@ -138,3 +138,15 @@ https://github.com/meuter/argon-one-case-ubuntu-20.04
 ```
 curl https://download.argon40.com/argon1.sh | bash
 ```
+
+### 10. Get Pi Serial Number
+
+```
+cat /proc/cpuinfo
+```
+
+### 11. Revoke SSH key from previous address
+
+```
+ssh-keygen -R <Target IP>
+```
