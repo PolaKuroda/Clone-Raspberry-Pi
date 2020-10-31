@@ -150,3 +150,9 @@ cat /proc/cpuinfo
 ```
 ssh-keygen -R <Target IP>
 ```
+
+### 12. Install on screen keyboard
+
+```
+sudo apt install matchbox-keyboard
+```
