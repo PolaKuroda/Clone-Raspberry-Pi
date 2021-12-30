@@ -156,3 +156,24 @@ ssh-keygen -R <Target IP>
 ```
 sudo apt install matchbox-keyboard
 ```
+
+if `Accessories` -> `Keyboard` did not shown up
+
+1. Restart the pi OR
+2. in terminal
+
+```
+DISPLAY=:0 matchbox-keyboard &
+```
+
+### 13. Fix for Anydesk cannot start up (update at 2021/12/30)
+
+in terminal,
+
+```
+sudo apt install libgles-dev libegl-dev
+sudo ln -s /usr/lib/arm-linux-gnueabihf/libGLESv2.so /usr/lib/libbrcmGLESv2.so
+sudo ln -s /usr/lib/arm-linux-gnueabihf/libEGL.so /usr/lib/libbrcmEGL.so
+```
+
+Source of trick: [anydesk: error while loading shared libraries libbrcmglesv2.so](https://raspberrypi.stackexchange.com/a/133496)
